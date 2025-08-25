@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine1:latest
 
 # Install bash and curl as examples
 RUN apk update && apk add --no-cache bash curl
